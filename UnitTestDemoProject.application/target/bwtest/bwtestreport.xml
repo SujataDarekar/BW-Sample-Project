@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<completeReportDTO>
+    <moduleResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="testSuiteResultDTO">
+        <codeCoverage xsi:type="processCoverageDTO">
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Mapper</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">JMSRequestReply</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Start</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Log</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">End</activityCoverage>
+            <moduleName>UnitTestDemoProject</moduleName>
+            <processName>unittestdemoproject.SubProcessWithPrimitiveAssertion</processName>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">JMSRequestReplyToLog</transitionCoverage>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">StartToLog</transitionCoverage>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">MapperToEnd</transitionCoverage>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">LogToEnd</transitionCoverage>
+        </codeCoverage>
+        <codeCoverage xsi:type="processCoverageDTO">
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Mapper</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Start</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">GetBooks</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Log1</activityCoverage>
+            <activityCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">End</activityCoverage>
+            <moduleName>UnitTestDemoProject</moduleName>
+            <processName>unittestdemoproject.SubProcesswithActivityAssertion</processName>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">StartToEnd</transitionCoverage>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">MapperToGetBooks</transitionCoverage>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">GetBooksToEnd</transitionCoverage>
+            <transitionCoverage xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">LogToEnd</transitionCoverage>
+        </codeCoverage>
+        <moduleInfo>
+            <appName>UnitTestDemoProject.application</appName>
+            <appVersion>1.0</appVersion>
+            <moduleName>UnitTestDemoProject</moduleName>
+            <moduleVersion>1.0.0.qualifier</moduleVersion>
+        </moduleInfo>
+        <testSetResult xsi:type="testSetResultDTO">
+            <packageName>unittestdemoproject</packageName>
+            <processName>unittestdemoproject.SubProcesswithActivityAssertion</processName>
+            <testCaseResult xsi:type="testCaseResultDTO">
+                <assertionFailure>0</assertionFailure>
+                <assertionResult xsi:type="assertionResultDTO">
+                    <activityName>Mapper</activityName>
+                    <assertionStatus>passed</assertionStatus>
+                    <instanceId>bw0a100</instanceId>
+                    <message></message>
+                </assertionResult>
+                <assertions>1</assertions>
+                <assertionsRun>1</assertionsRun>
+                <processFailures>0</processFailures>
+                <testCaseFile>/UnitTestDemoProject/Tests/ActivityAssertionWithGoldFile.bwt</testCaseFile>
+            </testCaseResult>
+            <testCaseResult xsi:type="testCaseResultDTO">
+                <assertionFailure>1</assertionFailure>
+                <assertionResult xsi:type="assertionResultDTO">
+                    <activityName>Mapper</activityName>
+                    <assertionStatus>failed</assertionStatus>
+                    <instanceId>bw0a101</instanceId>
+                    <message>BX-200006: Assertion error @Mapper</message>
+                </assertionResult>
+                <assertions>1</assertions>
+                <assertionsRun>0</assertionsRun>
+                <processFailures>0</processFailures>
+                <testCaseFile>/UnitTestDemoProject/Tests/SubProcessWithActivityAssertionTest.bwt</testCaseFile>
+            </testCaseResult>
+        </testSetResult>
+        <testSetResult xsi:type="testSetResultDTO">
+            <packageName>unittestdemoproject</packageName>
+            <processName>unittestdemoproject.SubProcessWithPrimitiveAssertion</processName>
+            <testCaseResult xsi:type="testCaseResultDTO">
+                <assertionFailure>0</assertionFailure>
+                <assertionResult xsi:type="assertionResultDTO">
+                    <activityName>End</activityName>
+                    <assertionStatus>passed</assertionStatus>
+                    <instanceId>bw0a102</instanceId>
+                    <message></message>
+                </assertionResult>
+                <assertions>1</assertions>
+                <assertionsRun>1</assertionsRun>
+                <processFailures>0</processFailures>
+                <testCaseFile>/UnitTestDemoProject/Tests/SubProcessWithPrimitiveAssertionTest.bwt</testCaseFile>
+            </testCaseResult>
+        </testSetResult>
+    </moduleResult>
+</completeReportDTO>
