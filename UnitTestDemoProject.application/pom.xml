@@ -12,10 +12,10 @@
   <packaging>bwear</packaging>
   <properties>
     <skipTests>false</skipTests>
-    <bw.Home>\bwce\2.5</bw.Home>
     <project.type>None</project.type>
+    <bw.Home>\bw\6.6</bw.Home>
     <failIfNoTests>false</failIfNoTests>
-    <tibco.Home>C:\TIBCO_INSTALLER\BWCE\BWCE2.5.1V55.1</tibco.Home>
+    <tibco.Home>C:\TIBCO_INSTALLER\BW6\BW6.6.1-V15</tibco.Home>
   </properties>
   <build>
     <plugins>
